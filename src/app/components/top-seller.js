@@ -48,51 +48,51 @@ export default function TopSeller() {
 const DiscountedItem = [
 
     {
-        id: "7",
-        name: "head gear",
+        id: "30",
+        name: "cr7 jersey",
         discount: "450.000",
         value: "300000",
-        image: "head gear.png"
+        image: "cr7.webp"
     },
 
     {
-        id: "2",
-        name: "boxing glove",
+        id: "31",
+        name: "rvp jersey",
         discount: "850.000",
         value: "650000",
-        image: "boxing glove.webp",
+        image: "rvp.png",
     },
 
     {
-        id: "4",
-        name: "mma glove",
+        id: "32",
+        name: "rooney jersey",
         discount: "1.000.000",
         value: "956000",
-        image: "mma glove.png",
+        image: "rooney.webp",
     },
 
     {
-        id: "8",
-        name: "speedball",
+        id: "33",
+        name: "cantona jersey",
         discount: "1.300.000",
         value: "800999",
-        image: "speedball.png",
+        image: "cantona7.webp",
     },
 
     {
-        id: "9",
-        name: "boxing pad",
+        id: "34",
+        name: "beckham jersey",
         discount: "789.000",
         value: "470000",
-        image: "boxing pad.webp",
+        image: "beckham.png",
     },
 
     {
-        id: "10",
-        name: "t - shirt",
+        id: "35",
+        name: "scholes jersey",
         discount: "350.000",
         value: "264000",
-        image: "mma t-shirt.webp",
+        image: "scholes.webp",
     },
 
 

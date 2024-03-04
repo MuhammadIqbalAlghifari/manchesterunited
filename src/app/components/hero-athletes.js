@@ -62,12 +62,12 @@ export default function HeroAthletes() {
             className="text-white lg:text-7xl md:text-5xl text-4xl flex flex-row lg:gap-4 md:gap-3 sm:gap-2 gap-1"
             style={{ fontFamily: 'Bebas Neue' }}
           >
-            our <h3 style={{ color: 'red' }}>athletes</h3>
+            our players
           </div>
         </div>
         <div id="hero-right">
           <h3 className="text-white text-center uppercase lg:text-base md:text-base sm:text-sm text-[10px]" style={{ fontFamily: 'Roboto' }}>
-          SCROLL DOWN TO SEE knockout kings athletes
+          SCROLL DOWN TO SEE manchester united players
           </h3>
         </div>
       </main>

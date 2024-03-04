@@ -70,7 +70,7 @@ export default function News() {
 
                                     <div>
 
-                                        <div className="lg:text-5xl text-black dark:text-white text-3xl transition duration-500 font-black text-center lg:text-left leading-relaxed" style={{fontFamily: 'Bebas Neue'}}>MIKE TYSON IS THE NEW WORLD CHAMPION</div>
+                                        <div className="lg:text-5xl text-black dark:text-white text-3xl transition duration-500 font-black text-center lg:text-left leading-relaxed" style={{fontFamily: 'Bebas Neue'}}> From Struggles to Success</div>
 
                                     </div>
 

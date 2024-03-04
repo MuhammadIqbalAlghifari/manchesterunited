@@ -38,8 +38,8 @@ export default function Features() {
             <div className="flex flex-col lg:flex-row justify-between items-center py-16 max-w-7xl lg:gap-6 md:gap-4 gap-2 mx-auto">
                 <div id="hero-landing-left" className="my-auto max-w-xl tersembunyi-hero">
                     <div className="flex flex-col lg:items-start items-center">
-                        <div className="uppercase dark:text-white lg:text-left text-center text-black transition duration-500 flex justify-center flex-col text-4xl lg:text-5xl" style={{fontFamily: 'Bebas Neue'}}>unleash your inner champion at knockout kings with our best facilities  </div>
-                        <p className="lg:text-left text-center dark:text-white text-black transition duration-500 mt-3 md:text-sm text-xs" style={{fontFamily: 'Roboto'}}>Join Knockout Kings Boxing Center and experience the incredible benefits of boxing. Our expert trainers will help you improve your your fitness, learn self defense skills, and boost your self-confidence</p>
+                        <div className="uppercase dark:text-white lg:text-left text-center text-black transition duration-500 flex justify-center flex-col text-4xl lg:text-5xl" style={{fontFamily: 'Bebas Neue'}}>be a worldclass player with manchester united academy with our best facilities  </div>
+                        <p className="lg:text-left text-center dark:text-white text-black transition duration-500 mt-3 md:text-sm text-xs" style={{fontFamily: 'Roboto'}}>Join Manchester United Football Academy and experience the incredible benefits of football. Our expert trainers will help you improve your your fitness, learn self football skills, and boost your self-confidence</p>
                         
                         <div className="flex flex-col lg:items-start md:flex-row items-center justify-center gap-10 mt-10" style={{fontFamily: 'Roboto'}}>
                             <div id="fitur-left" className="text-white rounded-xl px-4 flex flex-col justify-center items-center lg:items-start gap-2 py-2 shadow-black shadow-lg hover:text-red-600 hover:bg-white transition ease-in-out duration-500 bg-red-600 hover:scale-105" >
@@ -67,14 +67,14 @@ export default function Features() {
                 </div>
                 <div id="hero-landing-right" className="lg:max-w-xl tersembunyi-hero lg:w-full md:w-1/2 w-5/6 py-4 flex justify-between items-start gap-3">
                     <div className="flex flex-col justify-start items-start gap-2">
-                        <img src="boxing.jpg" alt="" className="object-top object-cover shadow-black shadow-lg w-80 h-48" />
-                        <img src="boxer-training.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-48" />
-                        <img src="mma.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-36" />
+                        <img src="old trafford.jpg" alt="" className="object-top object-cover shadow-black shadow-lg w-80 h-48" />
+                        <img src="old trafford 2.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-48" />
+                        <img src="old trafford 3.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-36" />
                     </div>
                     <div className="flex flex-col justify-start items-start gap-2">
-                        <img src="mike sparring.jpg" alt="" className="object-top object-cover shadow-black shadow-lg w-80 h-36" />
-                        <img src="alex pereira.webp" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-52" />
-                        <img src="gervonta spar.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-44" />
+                        <img src="old trafford.avif" alt="" className="object-top object-cover shadow-black shadow-lg w-80 h-36" />
+                        <img src="old trafford 4.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-52" />
+                        <img src="old trafford 5.jpg" alt="" className="object-center object-cover shadow-black shadow-lg w-80 h-44" />
                     </div>
                 </div>
             </div>

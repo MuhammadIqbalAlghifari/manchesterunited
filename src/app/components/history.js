@@ -45,8 +45,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Founding Years</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">Knockout Kings Martial Arts Centre was established in 2004 by renowned martial artist and instructor, Master Muhammad Iqbal. With a vision to create a world-class training facility, Muhammad Iqbal began offering classes in various martial arts disciplines, including boxing, kickboxing, Brazilian Jiu-Jitsu, MMA and Taekwondo.</h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Foundation and Early Years</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">Manchester United originated as Newton Heath LYR Football Club, formed by the Carriage and Wagon department of the Lancashire and Yorkshire Railway. The club faced financial challenges in its early years but managed to survive and gain entry into the Football League in 1892. In 1902, financial reorganization led to the renaming of the club to Manchester United.</h3>
 
                         </div>
 
@@ -54,7 +54,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2004</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">1878-1902</h3>
 
                     </div>
 
@@ -64,7 +64,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2007</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">1945-1969</h3>
 
                     </div>
 
@@ -72,8 +72,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Expansion and Diversification</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">In the following years, Knockout Kings experienced significant growth, expanding its training facilities and introducing new programs. The center became a hub for mixed martial arts (MMA) training, attracting both amateur enthusiasts and professional fighters. The commitment to holistic development, combining physical fitness with mental toughness, set Knockout Kings apart in the martial arts community.</h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Matt Busby Era</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">Sir Matt Busby, appointed manager in 1945, played a pivotal role in Manchester United's history. Under his leadership, the team achieved significant success, winning five English league titles and the European Cup in 1968. Tragically, the Munich air disaster in 1958 claimed the lives of several players, but Busby rebuilt the team to achieve European glory.</h3>
 
                         </div>
 
@@ -87,8 +87,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Rise to Prominence</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">During this period, Knockout Kings produced several notable champions in various martial arts competitions. The center's fighters gained recognition for their skill and sportsmanship, contributing to the center's rise to prominence. The success led to partnerships with major sports brands such as Adidas and Nike, providing athletes with top-tier training gear and apparel.</h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl"> The "Busby Babes" and Munich Air Disaster</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">The 1950s saw the emergence of the "Busby Babes," a talented group of young players. However, tragedy struck on February 6, 1958, when the team's plane crashed in Munich, Germany, claiming the lives of eight players. Despite the setback, Busby rebuilt the team and continued to achieve success.</h3>
 
                         </div>
 
@@ -96,7 +96,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2011</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">1950s</h3>
 
                     </div>
 
@@ -106,7 +106,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2015</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">1986-2013</h3>
 
                     </div>
 
@@ -114,8 +114,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">High-Profile Sponsorships</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">The years 2015 to 2018 marked a turning point for Knockout Kings as it secured sponsorships from leading sportswear brands, including Puma and Everlast. These partnerships not only brought financial support but also elevated the center's status in the martial arts world. </h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Sir Alex Ferguson Era</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">Sir Alex Ferguson, one of the most successful managers in football history, took charge in 1986. During his tenure, Manchester United experienced unprecedented success, winning 13 English Premier League titles, five FA Cups, four League Cups, and two UEFA Champions League titles, among numerous other honors. </h3>
 
                         </div>
 
@@ -129,8 +129,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Global Recognition and Competitions</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">Knockout Kings continued to make waves on the global stage, hosting and participating in prestigious martial arts competitions. The center's fighters achieved success on international platforms, bringing recognition not only to themselves but also to the institution. The global exposure attracted further sponsorships, solidifying Knockout Kings as a powerhouse in the martial arts community.</h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Treble-Winning Season</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">The 1998-1999 season is etched in Manchester United's history as they secured an unprecedented treble, winning the Premier League, FA Cup, and UEFA Champions League in a dramatic final against Bayern Munich, with two injury-time goals.</h3>
 
                         </div>
 
@@ -138,7 +138,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2019</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">1998-1999</h3>
 
                     </div>
 
@@ -148,7 +148,7 @@ export default function History() {
 
                     <div id="hero-right">
 
-                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2022 - now</h3>
+                        <h3 style={{fontFamily: 'Bebas Neue'}} className="text-black lg:text-7xl md:text-5xl text-3xl dark:text-white transition duration-500">2013-Present</h3>
 
                     </div>
 
@@ -156,8 +156,8 @@ export default function History() {
 
                         <div className="md:px-10 md:py-12 px-3 py-5 bg-[#121212] flex flex-col justify-start md:items-start items-center md:gap-6 gap-3 dark:bg-[#f5f5f5] shadow-black shadow-lg rounded-md transition duration-500 md:w-[560px] w-[300px]">
 
-                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Present Day</h3>
-                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">As of the present day, Knockout Kings stands as a beacon of excellence in martial arts training. The center boasts a diverse community of practitioners, from beginners to world-class athletes. With sponsorships from Adidas, Nike, Puma, and Everlast, Knockout Kings continues to evolve, pushing the boundaries of martial arts innovation. </h3>
+                                <h3 style={{fontFamily: 'Bebas Neue'}} className="text-white dark:text-black transition duration-500 lg:text-4xl md:text-2xl text-xl">Post-Ferguson Era</h3>
+                                <h3 style={{fontFamily: 'Roboto'}} className="text-white dark:text-black transition duration-500 md:text-left text-center md:text-sm text-[10px]">After Sir Alex Ferguson's retirement in 2013, the club faced transitional challenges under different managers. Despite this, Manchester United has continued to compete at the highest level, showcasing a commitment to reclaiming its historical dominance in English and European football. </h3>
 
                         </div>
 

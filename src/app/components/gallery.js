@@ -34,22 +34,22 @@ export default function Gallery() {
 
     const Gallery = [
         {
-            image: "/boxing.jpg"
+            image: "/manchester is my heaven.webp"
         },
         {
-            image: "/mike fight.jpg"
+            image: "/rooney.jpg"
         },
         {
-            image: "/floyd spar.jpg"
+            image: "/ucl win.jpg"
         },
         {
-            image: "/paquiao.jpg"
+            image: "/uel.jpg"
         },
         {
-            image: "/tyson fury spar.jpg"
+            image: "/cr7 ucl.png"
         },
         {
-            image: "/deontay.jpg"
+            image: "/kick off.jpg"
         },
     ]
 

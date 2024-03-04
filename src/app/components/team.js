@@ -38,7 +38,7 @@ export default function Team() {
             image: "/man-5.jpeg",
             name: "John Doe",
             position: "Head Trainer",
-            description: "John Doe is a highly skilled boxing trainer  with over 10 years of experience",
+            description: "John Doe is a highly skilled football trainer  with over 10 years of experience",
         },
         {
             image: "/man-1.jpg",
@@ -50,7 +50,7 @@ export default function Team() {
             image: "/man-2.jpg",
             name: "Mike Johnson",
             position: "Strength Coach",
-            description: "Mike Johnson specializes in strength and  conditioning training for boxer of  all  levels",
+            description: "Mike Johnson specializes in strength and  conditioning training for footballer of  all  levels",
         },
         {
             image: "/woman-2.jpg",
@@ -62,19 +62,19 @@ export default function Team() {
             image: "/man-3.jpg",
             name: "David Lee",
             position: "Sport Therapist",
-            description: "David Lee specializes in sports therapy to  prevent and treat injuries in boxers",
+            description: "David Lee specializes in sports therapy to  prevent and treat injuries in footballers",
         },
         {
             image: "/woman-1.jpg",
             name: "Emily Watson",
             position: "Boxing Coach",
-            description: "Emily Wilson is a former professional  boxer who now shares her expertise with with aspiring fighters",
+            description: "Emily Wilson is a former professional footballer who now shares her expertise with with aspiring players",
         },
         {
             image: "/man-4.jpg",
             name: "Michael Brown",
             position: "Youth Trainer",
-            description: "Michael Brown is passionate about  teaching young boxers the fundamentals  of the sports",
+            description: "Michael Brown is passionate about teaching young footballers the fundamentals  of the sports",
         },
     ]
 
@@ -82,7 +82,7 @@ export default function Team() {
         <section id="gallery" className="pb-16 z-10 bg-[#f5f5f5] px-6 lg:px-12 -mt-2.5 w-full dark:bg-[#121212] transition duration-500" ref={ref}>
 
         <div className="dark:text-white tersembunyi-fade text-black transition duration-500 flex flex-row uppercase gap-2 lg:text-6xl text-4xl justify-center py-8" style={{fontFamily: 'Bebas Neue'}}>Meet our<h3>team</h3></div>
-        <p className="text-center tersembunyi-fade lg:text-base md:text-sm text-xs dark:text-white text-black transition duration-500 font-medium mx-auto leading-relaxed px-6 max-w-7xl" style={{fontFamily: 'Roboto'}}>The heart of Knockout Kings is our dedicated team of professional trainers and staff who bring a wealth of experience and knowledge to the gym. They are passionate about boxing and are committed to helping you achieve your goals. Whether you're interested in improving your boxing skills, getting in shape, or just having fun while working out, our team is here to guide you.</p>
+        <p className="text-center tersembunyi-fade lg:text-base md:text-sm text-xs dark:text-white text-black transition duration-500 font-medium mx-auto leading-relaxed px-6 max-w-7xl" style={{fontFamily: 'Roboto'}}>The heart of Manchester United Football Academy is our dedicated team of professional trainers and staff who bring a wealth of experience and knowledge to the academy. They are passionate about football and are committed to helping you achieve your goals. Whether you're interested in improving your football skills, getting in shape, or just having fun while working out, our team is here to guide you.</p>
 
             <div className="flex flex-col justify-center mt-10 gap-6 items-center tersembunyi-fade">
 
@@ -102,7 +102,7 @@ export default function Team() {
                     <div id="card-8" style={{fontFamily: 'Roboto'}} className="text-white text-center mx-auto bg-green-600 md:px-4 md:py-4 px-3 py-2 shadow-black shadow-lg rounded-md hover:text-black hover:bg-white hover:scale-105 transition duration-500">
                         <img src="question.png" alt="" className="rounded-full w-20 h-20 object-contain mx-auto mt-8 mb-4"/>    
                         <h3 className="font-bold mb-1 md:text-base text-sm">We're Hiring</h3>
-                        <h3 className="md:text-sm text-xs">Join our team and make a difference  in the boxing comunity, and make the  become the champions</h3>
+                        <h3 className="md:text-sm text-xs">Join our team and make a difference  in the football comunity, become the GOAT.</h3>
                         <p className="md:text-sm text-xs mt-4">Open position</p>
                     </div>
 
@@ -111,7 +111,7 @@ export default function Team() {
             </div>
 
             <div className="dark:text-white tersembunyi-fade transition duration-500 uppercase gap-2 lg:text-6xl text-center text-4xl mt-20 py-4" style={{fontFamily: 'Bebas Neue'}}>We're Hiring!</div>
-            <p className="text-center tersembunyi-fade dark:text-white lg:text-md text-sm transition duration-500 mb-6 font-semibold" style={{fontFamily: 'Roboto'}}>Join our team and make a difference in the boxing comunity.</p>
+            <p className="text-center tersembunyi-fade dark:text-white lg:text-md text-sm transition duration-500 mb-6 font-semibold" style={{fontFamily: 'Roboto'}}>Join our team and make a difference in the football comunity.</p>
             <Link href='/hiring' className="flex tersembunyi-fade justify-center"><button style={{fontFamily: 'Roboto'}} className="md:px-4 md:py-2 px-2 py-1 md:text-md text-sm outline-red-600 hover:text-white outline dark:text-white hover:outline-none hover:bg-red-600 font-medium hover:font-semibold transition duration-500">Open position</button></Link>
         </section>
     )

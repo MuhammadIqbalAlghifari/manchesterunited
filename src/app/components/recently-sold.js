@@ -48,32 +48,32 @@ export default function RecentlySoldProduct() {
 
         const RecentlySoldProduct = [
             {
-                id: "1",
-                name: "apple airpods pro 2nd gen with charging",
-                discount: "1.500.000",
-                value: "1299999",
-                image: "airpods.avif",
+                id: "37",
+                name: "Nike Mercurial CR7",
+                discount: "1.900.000",
+                value: "1750000",
+                image: "nike cr7.png",
             },
             {
-                id: "2",
-                name: "boxing glove",
-                discount: "850000",
-                value: "650000",
-                image: "boxing glove.webp",
-            },
-            {
-                id: "3",
-                name: "Nike Machomai boxing",
+                id: "36",
+                name: "Nike Mercurial Type 1",
                 discount: "2.000.000",
                 value: "1800000",
-                image: "nike boxing shoe.webp"
+                image: "nike mercurial elite v2.webp"
             },
             {
-                id: "4",
-                name: "mma glove",
-                discount: "1.000.000",
-                value: "956000",
-                image: "mma glove.png",
+                id: "39",
+                name: "Nike Mercurial Type 3",
+                discount: "1.500.000",
+                value: "1299999",
+                image: "nike.webp",
+            },
+            {
+                id: "38",
+                name: "Nike Mercurial Type 2",
+                discount: "2.500.000",
+                value: "2379000",
+                image: "nike mercurial elite.webp",
             },
         ]
 

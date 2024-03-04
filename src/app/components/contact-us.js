@@ -42,7 +42,7 @@ export default function ContactUs() {
                 <div id="hero-landing-left" className="flex justify-center h-full tersembunyi-hero">
                     <div className="flex flex-col gap-2 z-0">
                         <div id="hero left" className="relative overflow-hidden lg:max-w-2xl lg:h-[900px] h-[320px] bg-no-repeat shadow-black shadow-lg group hidden lg:block">
-                            <img src="justin gaethje.jpg" className=" h-full hover:scale-105 w-full transition duration-500 object-cover"/>
+                            <img src="rashford contact.jpg" className=" h-full hover:scale-105 w-full transition duration-500 object-cover"/>
                         </div>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function ContactUs() {
 
                         <div className="text-black lg:text-5xl text-3xl text-center py-2" style={{fontFamily: 'Bebas Neue'}}><h3>your new journey starts with your first step</h3></div>
 
-                        <div className="text-black lg:text-md text-sm text-center py-2" style={{fontFamily: 'Roboto'}}><h3>Feel free to reach out to us at any time with your inquiries or feedback about Knockout Kings Martial Arts Gym, our team is here to support your journey and answer any questions you may have on your path to mastering the art of combat.</h3></div>
+                        <div className="text-black lg:text-md text-sm text-center py-2" style={{fontFamily: 'Roboto'}}><h3>Feel free to reach out to us at any time with your inquiries or feedback about Manchester United Football Academy, our team is here to support your journey and answer any questions you may have on your path to mastering the art of football.</h3></div>
 
                         <div className="flex justify-between pt-8 gap-10">
 

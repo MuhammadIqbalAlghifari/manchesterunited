@@ -4,8 +4,6 @@ import { NavbarLoggedInShop }  from "../components/navbar-logged-in-shop"
 import Benefits from "../components/benefits"
 import { CartProvider } from "../components/cart-context"
 import HeroShop from "../components/hero-shop"
-import OurBrands from "../components/our-brand"
-import OurCatalogues from "../components/our-catalogues"
 import OurSponsor from "../components/our-sponsor"
 import Promo from "../components/promo"
 import RecentlySoldProduct from "../components/recently-sold"
@@ -13,6 +11,7 @@ import RecommendedProduct from "../components/recommended"
 import TopSeller from "../components/top-seller"
 import { useEffect } from "react"
 import FooterShop from "../components/footer-logged-in-shop"
+import Jersey from "../components/jersey"
 
 
 const ShopPage = () => {
@@ -40,11 +39,10 @@ const ShopPage = () => {
             <HeroShop/>
             <Promo/>
             <TopSeller/>
+            <Jersey/>
             <RecommendedProduct/>
             <OurSponsor/>
             <Benefits/>
-            <OurBrands/>
-            <OurCatalogues/>
             <RecentlySoldProduct/>
             <FooterShop/>
         </CartProvider>

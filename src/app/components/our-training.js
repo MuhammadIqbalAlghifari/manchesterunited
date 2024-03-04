@@ -34,28 +34,20 @@ export default function OurTraining() {
 
     const ourTrainingData = [
         {
-            tittle: "Boxing training",
-            image: "/boxing training.jpg",
+            tittle: "goalkeeping training",
+            image: "/goalkeeping.jpg",
         },
         {
-            tittle: "MMA TRAINING",
-            image: "/mma.jpg",
+            tittle: "defending TRAINING",
+            image: "/defending.jpg",
         },
         {
-            tittle: "taekwondo training",
-            image: "/taekwondo.jpg",
+            tittle: "centre middlefield training",
+            image: "/middlefield.jpg",
         },
         {
-            tittle: "kickboxing training",
-            image: "/kickboxing.jpg",
-        },
-        {
-            tittle: "jiu jitsu training",
-            image: "/bjj.jpg",
-        },
-        {
-            tittle: "krav maga training",
-            image: "/krav maga.jpg",
+            tittle: "attacking training",
+            image: "/attacking.jpg",
         },
     ]
 
@@ -64,12 +56,12 @@ export default function OurTraining() {
 
             <div className="py-10">
 
-                <div className="grid lg:grid-cols-6 grid-cols-3 shadow-black shadow-lg max-w-7xl mx-auto tersembunyi-fade">
+                <div className="grid lg:grid-cols-4 grid-cols-2 shadow-black shadow-lg max-w-7xl mx-auto tersembunyi-fade">
 
                     {ourTrainingData.map((item, index) => (
-                        <div key={index} className="relative overflow-hidden w-full lg:h-[120px] h-[90px] group">
+                        <div key={index} className="relative overflow-hidden w-full lg:h-[150px] h-[120px] group">
 
-                            <div className="absolute bg-black w-full h-full z-10 opacity-50"></div>
+                            <div className="absolute bg-black w-full h-full z-10 opacity-30"></div>
 
                             <img src={item.image} className="absolute group-hover:scale-105 transition duration-500 object-cover object-center w-full h-full" alt="" />
 

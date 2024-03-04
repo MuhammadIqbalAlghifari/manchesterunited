@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import Link from "next/link"
-import Card from "./card-men"
+import Card from "./card-boys"
 import { useState, useEffect, useRef } from "react"
 
 const WorkoutForMenList = () => {

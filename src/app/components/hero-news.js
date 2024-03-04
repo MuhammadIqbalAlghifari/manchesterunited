@@ -61,7 +61,7 @@ export default function HeroNews() {
             className="text-white lg:text-7xl md:text-5xl text-4xl flex flex-row lg:gap-4 md:gap-3 sm:gap-2 gap-1"
             style={{ fontFamily: 'Bebas Neue' }}
           >
-            knockout kings <h3 style={{ color: 'red' }}>news</h3>
+            manchester united news
           </div>
         </div>
         <div id="hero-right">

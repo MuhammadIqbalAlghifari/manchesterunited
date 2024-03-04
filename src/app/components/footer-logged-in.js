@@ -38,8 +38,8 @@ export default function Footer() {
             <div className="tersembunyi-footer">
                 <div className="flex justify-between items-start py-4">
                     <div id="footer-left" className="flex justify-start md:gap-5 gap-2 flex-col">
-                        <h1 className="gap-2 lg:text-5xl md:text-3xl text-lg dark:text-black text-white transition duration-500" style={{fontFamily: 'Bebas Neue'}}>Knockout Kings</h1>
-                        <p className="dark:text-black text-white lg:text-md md:text-sm sm:text-[9px] text-[7px] transition duration-500" style={{fontFamily: 'Roboto'}}>Echoing Triumphs, Unleashing Power.</p>
+                        <h1 className="gap-2 lg:text-5xl md:text-3xl text-lg dark:text-black text-white transition duration-500" style={{fontFamily: 'Bebas Neue'}}>Manchester United</h1>
+                        <p className="dark:text-black text-white lg:text-md md:text-sm sm:text-[9px] text-[7px] transition duration-500" style={{fontFamily: 'Roboto'}}>Glory Glory Manchester United</p>
                     </div>
                     <div id="footer-right" className="flex justify-start flex-col gap-0.5 uppercase">
                         <p className="dark:text-black text-white lg:text-md md:text-sm sm:text-[9px] text-[7px] transition duration-500" style={{fontFamily: 'Roboto'}}>pro license</p>
@@ -106,7 +106,7 @@ export default function Footer() {
                             </a>
 
                         </div>
-                        <h1 className="lg:text-xs sm:text-[9px] text-[7px] dark:text-black text-white transition duration-500" style={{fontFamily: 'Roboto'}}> @ {currentYear} Knockout Kings. All Rights Reserved.</h1>
+                        <h1 className="lg:text-xs sm:text-[9px] text-[7px] dark:text-black text-white transition duration-500" style={{fontFamily: 'Roboto'}}> @ {currentYear} Manchester United. All Rights Reserved.</h1>
                     </div>
             </div>
         </footer>

@@ -43,7 +43,7 @@ export default function Pricing({ OpenModal }) {
 
                     <div className="lg:text-3xl py-1 text-center text-2xl lg:text-left" style={{fontFamily: 'Bebas Neue', color: 'red'}}>Our Pricing Plans</div>
                     <div className="text-black lg:text-6xl py-1 lg:text-left text-4xl text-center" style={{fontFamily: 'Bebas Neue'}}>Affordable Pricing  plans for you</div>
-                    <div className="text-black lg:text-base py-3 lg:text-left text-sm text-center" style={{fontFamily: 'Roboto'}}>If you want to pay for our training plan, come to Knockout King's gym, and register  your account first. </div>
+                    <div className="text-black lg:text-base py-3 lg:text-left text-sm text-center" style={{fontFamily: 'Roboto'}}>If you want to pay for our training plan, come to Manchester United Academy, and register  your account first. </div>
 
                     <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 py-2 lg:gap-3 gap-6">
 
@@ -219,7 +219,7 @@ export default function Pricing({ OpenModal }) {
 
                         <div id="hero left" className="relative overflow-hidden bg-no-repeat shadow-black shadow-lg group">
 
-                            <img src="mcgregor.jpg" className=" h-full w-full hover:scale-105 transition duration-500 object-cover"/>
+                            <img src="manchunian.jpg" className=" h-full w-full hover:scale-105 transition duration-500 object-cover"/>
 
                             <main className="flex justify-center py-2 w-full opacity-0 ">
 

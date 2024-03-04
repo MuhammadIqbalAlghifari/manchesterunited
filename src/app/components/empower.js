@@ -43,7 +43,7 @@ export default function Empower() {
 
                     <h3 className="lg:text-3xl text-xl" style={{fontFamily: 'Bebas Neue', color: 'red'}}>Empower</h3>
 
-                    <h1 className="text-black dark:text-white lg:text-5xl text-4xl  mx-auto lg:text-left md:text-left sm:text-left text-center transition duration-500" style={{fontFamily: 'Bebas Neue'}}>Unlock your full potential with martial arts</h1>
+                    <h1 className="text-black dark:text-white lg:text-5xl text-4xl  mx-auto lg:text-left md:text-left sm:text-left text-center transition duration-500" style={{fontFamily: 'Bebas Neue'}}>Unlock your full potential with manchester united academy</h1>
 
                     <div className="flex justify-start items-center gap-3">
 
@@ -88,7 +88,7 @@ export default function Empower() {
                             <div className="flex flex-col justify-start items-start gap-4 text-black dark:text-white transition duration-500" style={{fontFamily: 'Roboto'}}>
 
                                 <h1 className="lg:text-lg md:text-md text-sm font-bold">Enrollment Process</h1>
-                                <h1 className="lg:text-left text-left lg:text-base md:text-sm text-xs md:text-left">Join our martial arts community and start your journey towards personal growth and self-defense.</h1>
+                                <h1 className="lg:text-left text-left lg:text-base md:text-sm text-xs md:text-left">Join manchester united community and start your journey towards personal growth and be a worldclass player.</h1>
 
 
                             </div>
@@ -109,7 +109,7 @@ export default function Empower() {
                             <div className="flex flex-col justify-start items-start gap-4 text-black dark:text-white transition duration-500" style={{fontFamily: 'Roboto'}}>
 
                                 <h1 className="lg:text-lg md:text-md text-sm font-bold">Training Benefits</h1>
-                                <h1 className="lg:text-left text-left lg:text-base md:text-sm text-xs md:text-left">Improve your fitness, discipline, focus, and self-confidence through martial arts training.</h1>
+                                <h1 className="lg:text-left text-left lg:text-base md:text-sm text-xs md:text-left">Improve your fitness, discipline, focus, and self-confidence through football training.</h1>
 
 
                             </div>

@@ -62,12 +62,12 @@ export default function HeroAbout() {
             className="text-white lg:text-7xl md:text-5xl text-4xl flex flex-row lg:gap-4 md:gap-3 sm:gap-2 gap-1"
             style={{ fontFamily: 'Bebas Neue' }}
           >
-            about <h3 style={{ color: 'red' }}>knockout kings</h3>
+            about manchester united
           </div>
         </div>
         <div id="hero-right">
           <h3 className="text-white text-center uppercase lg:text-base md:text-base sm:text-sm text-[10px]" style={{ fontFamily: 'Roboto' }}>
-          SCROLL DOWN TO SEE MORE ABOUT knockout kings
+          SCROLL DOWN TO SEE MORE ABOUT manchester united
           </h3>
         </div>
       </main>

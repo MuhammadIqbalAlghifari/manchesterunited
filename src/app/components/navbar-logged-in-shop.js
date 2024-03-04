@@ -196,7 +196,7 @@ const NavbarLoggedInShop = () => {
                 <div className="justify-between px-4 mx-auto lg:max-w-8xl md:items-center md:flex md:px-8">
                     <div>
                         <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                            <div className="flex lg:gap-2 gap-1 text-xl sm:text-2xl font-semibold md:text-3xl lg:text-5xl justify-start text-white transition" style={{fontFamily: 'Bebas Neue'}}> KNOCKOUT <h2 style={{color: 'red'}}>KINGS</h2></div>
+                            <div className="flex lg:gap-2 gap-1 text-xl sm:text-2xl font-semibold md:text-3xl lg:text-5xl justify-start text-white transition" style={{fontFamily: 'Bebas Neue'}}> manchester <h2 style={{color: 'red'}}>united</h2></div>
                             <div className="md:hidden flex items-center gap-1.5">
                                 <button className="text-gray-700 rounded-md outline-none" id="help-sidebar">
                                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7 text-white" onClick={() => toggleSidebar("help")}>
@@ -269,11 +269,6 @@ const NavbarLoggedInShop = () => {
                                 <li className="text-white text-center">
                                     <Link href="/About" className={currentRoute === '/About' ? activeStyle : nonActiveStyle}>
                                         <p className="hover:text-red-600 transition duration-100">About</p>  
-                                    </Link>
-                                </li>
-                                <li className="text-white text-center">
-                                    <Link href="/News" className={currentRoute === '/News' ? activeStyle : nonActiveStyle}>
-                                        <p className="hover:text-red-600 transition duration-100">News</p>  
                                     </Link>
                                 </li>
                                 <li className="text-white text-center">

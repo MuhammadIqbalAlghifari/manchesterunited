@@ -62,7 +62,7 @@ export default function HeroTraining() {
             className="text-white lg:text-7xl md:text-5xl text-4xl flex flex-row lg:gap-4 md:gap-3 sm:gap-2 gap-1"
             style={{ fontFamily: 'Bebas Neue' }}
           >
-            training <h3 style={{ color: 'red' }}>section</h3>
+            training section
           </div>
         </div>
         <div id="hero-right">

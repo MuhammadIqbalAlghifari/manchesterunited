@@ -41,7 +41,7 @@ export default function AboutUs() {
                 <div id="hero-landing-left" className="flex h-full max-w-lg tersembunyi-hero lg:pt-[125px] py-10">
                     <div className="flex flex-col gap-2 z-10">
                         <div id="hero left" className="relative overflow-hidden bg-no-repeat shadow-black shadow-lg group">
-                            <img src="boxing.jpg" className=" h-full w-full hover:scale-105 transition duration-500 object-cover"/>
+                            <img src="manchunian-about.jpg" className=" h-full w-full hover:scale-105 transition duration-500 object-cover"/>
                             <main className="flex justify-center py-2 w-full opacity-0 ">
                                 <div style={{fontFamily: 'Bebas Neue', color: 'red'}} className="lg:text-4xl z-40 pointer-events-none">MIKE <p className="text-white">TYSON</p> </div>
                             </main>
@@ -52,8 +52,8 @@ export default function AboutUs() {
                 <div id="hero-landing-right" className="flex tersembunyi-hero justify-center flex-col mt-40 max-w-2xl">
 
                     <div className="lg:text-3xl text-2xl py-1 text-center lg:text-left" style={{fontFamily: 'Bebas Neue', color: 'red'}}>About us</div>
-                    <div className="text-black lg:text-6xl text-4xl py-1 text-center lg:text-left" style={{fontFamily: 'Bebas Neue'}}>Best boxing school and martial  arts since 2004</div>
-                    <div className="text-black lg:text-base text-center lg:text-left text-sm py-3" style={{fontFamily: 'Roboto'}}>Unleashing Champions Since 2004. Our story is a journey of grit, discipline, and triumph.  Discover the heartbeat of our best-in-class boxing school and martial arts sanctuary in every punch,  kick, and victory. Welcome to a legacy forged in passion where greatness becomes a way of life.</div>
+                    <div className="text-black lg:text-6xl text-4xl py-1 text-center lg:text-left" style={{fontFamily: 'Bebas Neue'}}>Best football academy and football club since 2004</div>
+                    <div className="text-black lg:text-base text-center lg:text-left text-sm py-3" style={{fontFamily: 'Roboto'}}>Unleashing Wordclass Player Since 2004. Our story is a journey of grit, discipline, and triumph.  Discover the heartbeat of our best-in-class football school sanctuary in every defending,  attacking, and victory. Welcome to a legacy forged in passion where greatness becomes a way of life.</div>
 
                         <div className="grid lg:grid-cols-2 grid-cols-1 md:grid-cols-2 py-6 gap-2">
 
@@ -69,7 +69,7 @@ export default function AboutUs() {
 
                                 </div>
 
-                                <div className="text-black lg:text-base text-sm lg:text-left text-center" style={{fontFamily: 'Roboto'}}>We provide the highest quality martial arts  training here.</div>
+                                <div className="text-black lg:text-base text-sm lg:text-left text-center" style={{fontFamily: 'Roboto'}}>We provide the highest quality football training here.</div>
 
 
                             </div>
@@ -102,7 +102,7 @@ export default function AboutUs() {
 
                                 </div>
 
-                                <div className="text-black lg:text-base text-sm lg:text-left text-center" style={{fontFamily: 'Roboto'}}>We provide best equipment for martial arts training here.</div>
+                                <div className="text-black lg:text-base text-sm lg:text-left text-center" style={{fontFamily: 'Roboto'}}>We provide best equipment for football training here.</div>
 
                             </div>
 
@@ -118,7 +118,7 @@ export default function AboutUs() {
 
                                 </div>
 
-                                <div className="text-black lg:text-base lg:text-left text-sm text-center" style={{fontFamily: 'Roboto'}}>We provide expert and experienced trainers  for martial arts here.</div>
+                                <div className="text-black lg:text-base lg:text-left text-sm text-center" style={{fontFamily: 'Roboto'}}>We provide expert and experienced trainers  for football here.</div>
 
                             </div>
 

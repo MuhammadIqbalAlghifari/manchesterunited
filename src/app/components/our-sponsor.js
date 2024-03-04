@@ -42,9 +42,6 @@ export default function OurSponsor() {
         {
             image: "/Nike Logo.png",
         },
-        {
-            image: "/Everlast Logo.png",
-        },
     ]
 
     return (
@@ -57,7 +54,7 @@ export default function OurSponsor() {
 
                 <div className="flex flex-col justify-center items-center">
 
-                    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-self-center gap-10 max-w-7xl mx-auto py-8">
+                    <div className="grid md:grid-cols-3 grid-cols-1 justify-self-center gap-10 max-w-7xl mx-auto py-8">
 
                         {SponsorData.map((item, index) => (
 

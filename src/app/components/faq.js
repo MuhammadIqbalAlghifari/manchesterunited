@@ -3,6 +3,33 @@ import { useEffect, useState, useRef } from "react";
 
 export default function FAQ() {
 
+    const faqData = [
+        {
+            tittle: "What age groups does the Manchester United Academy cater to?",
+            description: "The Manchester United Academy provides development programs for young footballers in various age groups. These groups typically range from under-9 to under-23, allowing players to progress through different stages of their youth development journey."
+        },
+        {
+            tittle: "How can a young player join the Manchester United Academy?",
+            description: "Joining the Manchester United Academy often involves a scouting process where talented players are identified. Scouts actively attend local and international tournaments to spot potential talents. Identified players may then be invited to trial sessions at the Academy."
+        },
+        {
+            tittle: "Is education a priority at the Manchester United Academy?",
+            description: "Yes, education is a priority. The Academy emphasizes a balanced approach, ensuring that players receive a well-rounded education alongside their football training. This dual focus aims to prepare them not only as athletes but also as educated individuals."
+        },
+        {
+            tittle: "What makes the coaching staff at the Academy unique?",
+            description: "The coaching staff at the Manchester United Academy is known for its expertise and commitment. Coaches are often former professional players or highly qualified individuals with a deep understanding of the club's philosophy. They focus on imparting not only football skills but also important values and discipline."
+        },
+        {
+            tittle: "Are there opportunities for international players to join the Academy?",
+            description: "Yes, the Manchester United Academy is open to talents from around the world. The club actively scouts and recruits international players, offering them a chance to experience top-tier training and development within the prestigious academy system."
+        },
+        {
+            tittle: "What facilities are available at the Manchester United Academy?",
+            description: "The Academy boasts state-of-the-art facilities, including dedicated training pitches, fitness and conditioning areas, classrooms for academic sessions, and medical facilities. These resources are designed to provide a supportive and professional environment for the holistic development of young players."
+        },
+    ]
+
     const [isIntersecting, setIsIntersecting] = useState(false);
 
     const ref = useRef(null);
@@ -46,54 +73,16 @@ export default function FAQ() {
                     </h2>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm dark:text-white text-black transition duration-500 mb-2">
-                            What are the membership options available at Knockout Kings Boxing Center?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            We offer various membership options, including monthly, quarterly, and annual plans, as well as pay-as-you-go options. You can choose the one that best suits your fitness goals and budget. Our team can help you find the perfect membership package during your visit.
-                            </p>
-                        </div>
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm mb-2 dark:text-white  text-black transition duration-500">
-                            Are women welcome at Knockout Kings Boxing Center?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            Absolutely! Knockout Kings is an inclusive and welcoming environment for individuals of all genders and ages. We have female trainers and offer women's boxing classes as well. Everyone is encouraged to pursue their boxing and fitness goals with us.
-                            </p>
-                        </div>
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm mb-2 dark:text-white text-black transition duration-500">
-                            Do I need prior boxing experience to join your gym?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            Not at all. Whether you're a complete beginner or an experienced boxer, our programs are designed to cater to all levels. Our trainers will assess your skills and customize your training plan accordingly, ensuring you get the most out of your sessions.
-                            </p>
-                        </div>
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm mb-2 dark:text-white text-black transition duration-500">
-                            What safety measures do you have in place for boxing training?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            We take safety seriously. Our gym is equipped with proper safety gear, and our trainers ensure that all participants use it correctly. Additionally, we provide guidance on injury prevention and maintain a clean and sanitized environment to promote the health and well-being of our members.
-                            </p>
-                        </div>
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm mb-2 dark:text-white  text-black transition duration-500">
-                            Do you offer personal training sessions at Knockout Kings Boxing Center?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            Yes, we offer personalized training sessions with our experienced trainers. These one-on-one sessions can help you progress more rapidly and achieve your specific goals. You can discuss the details, scheduling, and pricing of personal training during your visit or by reaching out to our staff.
-                            </p>
-                        </div>
-                        <div className="lg:text-left text-center">
-                            <h4 className="font-bold md:text-base text-sm mb-2 dark:text-white text-black transition duration-500">
-                            Can I participate in competitive boxing at Knockout Kings Boxing Center?
-                            </h4>
-                            <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
-                            Yes, we offer training and support for competitive boxing. If you're interested in pursuing boxing as a competitive sport, our experienced trainers can help you develop the necessary skills and conditioning. We also host sparring sessions and have connections with local boxing events and competitions. 
-                            </p>
-                        </div>
+                        {faqData.map((faq, index) => (
+                            <div className="lg:text-left text-center" key={index}>
+                                <h4 className="font-bold md:text-base text-sm dark:text-white text-black transition duration-500 mb-2">
+                                {faq.tittle}
+                                </h4>
+                                <p className="leading-relaxed text-black md:text-sm text-xs dark:text-white transition duration-500 font-medium">
+                                {faq.description}
+                                </p>
+                            </div>
+                        ))}
                     </div>
                     <div className="text-center dark:text-white text-black transition duration-500">
                     <a href="/#" className="inline-flex justify-center items-center space-x-2 border font-semibold rounded-lg px-4 py-2 leading-6 border-gray-200 bg-white dark:bg-red-600 hover:shadow-sm focus:ring focus:ring-gray-300 focus:ring-opacity-25 active:border-gray-200 active:shadow-none">

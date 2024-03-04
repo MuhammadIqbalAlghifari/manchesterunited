@@ -44,35 +44,35 @@ export default function Promo() {
     const PromoData = [
         {
             id: "11",
-            name: "12oz glove hq",
+            name: "adidas football shoe",
             value: "500000",
             discounted: "50%",
             discount: "1.000.000",
-            image: "/12oz.png",
+            image: "/adidas shoe.png",
         },
         {
             id: "12",
-            name: "punching bag hq",
+            name: "nike mercurial superfly",
             value: "350000",
             discounted: "15%",
             discount: "550.000",
-            image: "/everlast.avif",
+            image: "/nike mercurial rare.png",
         },
         {
             id: "13",
-            name: "amateur kit",
+            name: "nike phantom gt12",
             value: "900000",
             discounted: "10%",
             discount: "1.000.000",
-            image: "/amateur.webp",
+            image: "/nike phantom gt12.png",
         },
         {
             id: "14",
-            name: "professional kit",
+            name: "nike mercurial vapor",
             value: "1400000",
             discounted: "25%",
             discount: "1.650.000",
-            image: "/boxing kit.png"
+            image: "/nike mercurial vapor.webp"
         },
     ]
 

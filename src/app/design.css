@@ -20,7 +20,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.fade-in {
+/* .fade-in {
     animation: fadeIn 700ms ease-in-out;
   }
   
@@ -119,7 +119,7 @@ html {
   opacity: 0.6;
   transition: all ease-in-out;
   transition-duration: 700ms;
-}
+} */
 
 
 

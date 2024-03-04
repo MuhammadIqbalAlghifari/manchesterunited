@@ -7,46 +7,34 @@ const Card = ({ }) => {
     const items = [
         {
           id: 1,
-          title: "Taekwondo",
-          description: "- Warm-up (10 minutes)\n- Basic kicking techniques (15 minutes)\n- High kick training (20 minutes)\n- Light sparring (15 minutes)\n- Stretching and cool down (10 minutes)",
-          image: "/taekwondo.jpg"
+          title: "Goalkeeping Training",
+          description: "- Shot-Stopping Drills\n- Distribution Exercises \n- One-on-One Situations \n- Crossing and Aerial Challenges \n- Communication Drills ",
+          image: "/goalkeeping.jpg"
         },
         {
           id: 2,
-          title: "Boxing",
-          description: "- Warm-up (10 minutes)\n- Basic punching techniques (15 minutes)\n- Punch combination training (20 minutes)\n- Light sparring (15 minutes)\n- Stretching and cool down (10 minutes)",
-          image: "/boxing training.jpg"
+          title: "Defending Training",
+          description: "- Positional Awareness \n- Tackling and Intercepting \n- 1v1 Defending \n- Pressing and Closing Down \n- Defensive Shape ",
+          image: "/defending.jpg"
         },
         {
           id: 3,
-          title: "Brazillian Jiu-Jitsu",
-          description: "- Warm-up (10 minutes)\n- Wrestling drills and grip techniques (20 minutes)\n- Position maintenance exercises (15 minutes)\n- Grappling practice with a partner (15 minutes)\n- Stretching and cool down (10 minutes)",
-          image: "/bjj.jpg"
+          title: "Middlefield Training",
+          description: "- Passing and Ball Retention \n- Vision and Awareness \n- Box-to-Box Movement \n- Press Resistance \n- Transition Play ",
+          image: "/middlefield.jpg"
         },
         {
           id: 4,
-          title: "Kickboxing",
-          description: "- Warm-up (10 minutes)\n- Basic techniques of punching and kicking (15 minutes)\n- Agility and punch combination training (20 minutes)\n- Light sparring (15 minutes)\n- Stretching and cool down (10 minutes)",
-          image: "/kickboxing.jpg"
-        },
-        {
-          id: 5,
-          title: "MMA (Mixed Martial Arts)",
-          description: "- Warm-up (10 minutes)\n- Combined training from various martial arts (20 minutes)\n- MMA sparring training (15 minutes)\n- Fighting strategy training (15 minutes)\n- Stretching and cool down (10 minutes)",
-          image: "/mma.jpg"
-        },
-        {
-            id: 6,
-            title: "krav maga",
-            description: "- Warm-up (10 minutes)\n- Personal defense techniques training (20 minutes)\n- Reaction training to attacks (15 minutes)\n- Training with weapons (knives, sticks, etc.) (20 minutes)\n- Stretching and cool down (10 minutes)",
-            image: "/krav maga.jpg"
+          title: "Attacking Training",
+          description: "- Finishing Drills \n- Combination Play \n- Movement off the Ball \n- Counter-Attacking Scenarios \n- Set-Piece Execution ",
+          image: "/attacking.jpg"
         },
       ];
 
       const [selectedItems, setSelectedItems] = useState([]);
 
         const handleMoveToUserTrainingList = (item) => {
-            if (selectedItems.length < 6 && !selectedItems.includes(item)) {
+            if (selectedItems.length < 4 && !selectedItems.includes(item)) {
                 setSelectedItems([...selectedItems, item]);
         }};
 
@@ -57,7 +45,7 @@ const Card = ({ }) => {
 
     return (
         <>
-            <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 my-10 lg:gap-7 md:gap-5 gap-3 max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 my-10 lg:gap-7 md:gap-5 gap-3 max-w-7xl mx-auto">
                 {items.map((item) => (
                     
                         <div className="group" key={item.id}>
@@ -97,7 +85,7 @@ const Card = ({ }) => {
                     
                     <div className="dark:text-white text-black transition duration-500 flex flex-row uppercase md:text-6xl text-3xl gap-3 text-center justify-center px-6" style={{fontFamily: 'Bebas Neue'}}>your workout schedule</div>
                     
-                    <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 my-10 lg:gap-7 md:gap-4 gap-2 max-w-7xl mx-auto">
+                    <div className="grid grid-cols-1 md:grid-cols-2 my-10 lg:gap-7 md:gap-4 gap-2 max-w-7xl mx-auto">
                     {selectedItems.map((selectedItem) => (
                                     <div className="group fade-in" key={selectedItem.id}>
                                         <div

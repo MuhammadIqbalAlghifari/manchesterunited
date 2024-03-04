@@ -34,22 +34,22 @@ export default function OurService({ OpenModal }) {
 
       const ourServiceData = [
         {
-            image: "/samsak.jpg",
+            image: "/boys training match.jpg",
             tittle: "BOYS TRAINING MATCH",
             description: "we provide the best quality training match for boys here",
         },
         {
-            image: "/girls boxing.jpg",
+            image: "/girls training match.jpg",
             tittle: "girls TRAINING MATCH",
             description: "we provide the best quality training match for girls here",
         },
         {
-            image: "/boxer-training.jpg",
+            image: "/workout for men.jpg",
             tittle: "workout for men",
             description: "we provide the best quality workout training for men here",
         },
         {
-            image: "/girls workout.jpg",
+            image: "/workout for women.jpg",
             tittle: "workout for women",
             description: "we provide the best quality workout training for women here",
         },
@@ -67,7 +67,7 @@ export default function OurService({ OpenModal }) {
                     {ourServiceData.map((item, index) => (
                         <div key={index} className="relative overflow-hidden shadow-black shadow-lg w-full lg:h-[350px] md:h-[200px] h-[250px] group">
 
-                            <div className="absolute bg-black w-full z-10 h-full opacity-50"></div>
+                            <div className="absolute bg-black w-full z-10 h-full opacity-30"></div>
 
                             <img src={item.image} className="absolute group-hover:scale-105 w-full h-full transition duration-500 object-cover object-center" alt="" />
 

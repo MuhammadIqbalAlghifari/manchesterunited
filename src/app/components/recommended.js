@@ -47,32 +47,32 @@ export default function RecommendedProduct() {
 
 const RecommendedProduct = [
     {
-        id: "3",
-        name: "Nike Machomai boxing",
+        id: "36",
+        name: "Nike Mercurial Type 1",
         discount: "2.000.000",
         value: "1800000",
-        image: "nike boxing shoe.webp"
+        image: "nike mercurial elite v2.webp"
     },
     {
-        id: "5",
-        name: "Adidas Running Jacket",
+        id: "37",
+        name: "Nike Mercurial CR7",
         discount: "1.900.000",
         value: "1750000",
-        image: "adidas running.jpg",
+        image: "nike cr7.png",
     },
     {
-        id: "6",
-        name: "Puma castlerock-green running shoe",
+        id: "38",
+        name: "Nike Mercurial Type 2",
         discount: "2.500.000",
         value: "2379000",
-        image: "puma running shoes.webp",
+        image: "nike mercurial elite.webp",
     },
     {
-        id: "1",
-        name: "apple airpods pro 2nd gen with charging",
+        id: "39",
+        name: "Nike Mercurial Type 3",
         discount: "1.500.000",
         value: "1299999",
-        image: "airpods.avif",
+        image: "nike.webp",
     },
 ]
 
@@ -83,7 +83,7 @@ const RecommendedProduct = [
 
                 <div className="flex flex-col justify-center items-center gap-4 lg:py-8  text-black">
                     <h3 className="lg:text-6xl text-4xl text-center" style={{fontFamily: 'Bebas Neue'}}>recommended product</h3>
-                    <h3 className="text-md max-w-3xl text-center text-black" style={{fontFamily: 'Roboto'}}>Experience unparalleled performance and style in the ring with our recommended products at Knockout Kings shop, meticulously curated to elevate your boxing and MMA training to new heights.</h3>
+                    <h3 className="text-md max-w-3xl text-center text-black" style={{fontFamily: 'Roboto'}}>Experience unparalleled performance and style in the pitch with our recommended products at Manchester United shop, meticulously curated to elevate your football training to the next level.</h3>
                 </div>
 
                 <div className="flex flex-col justify-center items-center gap-3 max-w-7xl mx-auto">

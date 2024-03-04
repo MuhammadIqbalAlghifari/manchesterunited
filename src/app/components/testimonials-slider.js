@@ -1,7 +1,7 @@
 "use client"
-import TestimonialImg01 from '/public/man-5.jpeg'
-import TestimonialImg02 from '/public/man-4.jpg'
-import TestimonialImg03 from '/public/man-3.jpg'
+import TestimonialImg01 from '/public/rashford.jpg'
+import TestimonialImg02 from '/public/casemiro.jpg'
+import TestimonialImg03 from '/public/tenhag.jpg'
 import TestimonialsCoach from './testimonial-coach'
 import { useEffect, useState, useRef } from 'react'
   
